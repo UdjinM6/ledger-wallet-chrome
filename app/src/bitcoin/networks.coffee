@@ -44,3 +44,16 @@ ledger.bitcoin.Networks =
     version:
       regular: 113
       P2SH: 196
+  dash:
+    ticker: 'dash'
+    bip44_coin_type: '5'
+    version:
+      regular: 76
+      P2SH: 16
+    bitcoinjs: bitcoin.networks.dash
+  dashtest:
+    ticker: 'dashtest'
+    bip44_coin_type: '1'
+    version:
+      regular: 139
+      P2SH: 19
